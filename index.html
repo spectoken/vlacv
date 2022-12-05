@@ -3,30 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <title>Vladilen CV</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <table cellspacing="15">
-      <tr>
-        <td>
-          <img src="avatar.jpeg" width="200" alt="тут моя фотка" />
-        </td>
-        <td>
-          <h1>Владилен Минин</h1>
-          <p><em>Я основатель одноименного <strong>Youtube канала</strong></em></p>
-          <p>Я люблю путешестовать, заниматься спортом и программировать</p>
-        </td>
-      </tr>
-    </table>
+    <div class="info">
+      <img src="avatar.jpeg" alt="тут моя фотка" id="avatar" />
+      <h1>Владилен Минин</h1>
+      <p>
+        Я основатель одноименного <strong>Youtube канала</strong>
+      </p>
+      <p>Я люблю путешестовать, заниматься спортом и программировать</p>
+    </div>
 
-    <hr>
+    <hr />
 
     <h2>Мои социальные сети</h2>
     <ul>
-      <li><a href="https://instagram.com/vladilen.minin" target="_blank">Instagram</a></li>
-      <li><a target="_blank" href="https://t.me/js_by_vladilen">Telegram</a></li>
+      <li>
+        <a href="https://instagram.com/vladilen.minin" target="_blank"
+          >Instagram</a
+        >
+      </li>
+      <li>
+        <a target="_blank" href="https://t.me/js_by_vladilen">Telegram</a>
+      </li>
     </ul>
 
-    <hr>
+    <hr />
 
     <h2>Мои хобби</h2>
     <ol>
@@ -36,7 +39,7 @@
       <li>Путешествия</li>
     </ol>
 
-    <hr>
+    <hr />
 
     <h2>Опыт работы</h2>
     <table>
@@ -57,34 +60,32 @@
       </tr>
     </table>
 
-    <hr>
+    <hr />
 
     <h2>Youtube Курсы</h2>
     <a href="youtube.html">Посмотреть список</a>
 
-    <hr>
+    <hr />
     <h2>Связаться со мной</h2>
 
     <form action="/">
       <label for="name">Ваше имя:</label>
-      <input type="text" id="name" placeholder="Введите ваше имя...">
+      <input type="text" id="name" placeholder="Введите ваше имя..." />
 
-      <br>
+      <br />
 
       <label for="email">Ваш Email:</label>
-      <input type="email" id="email" placeholder="Введите email...">
+      <input type="email" id="email" placeholder="Введите email..." />
 
-      <br>
+      <br />
 
       <label for="text">Вашe сообщение:</label>
-      <br>
+      <br />
       <textarea id="text" rows="2" cols="15"></textarea>
 
-      <br>
+      <br />
 
-      <input type="submit" value="Связаться!">
+      <input type="submit" value="Связаться!" />
     </form>
-
-    
   </body>
 </html>
